@@ -23,6 +23,6 @@ if len(cep) == 8:
     banco.commit()
     meucursor.close()
     banco.close()
-
+#
 else:
     print("CEP inválido.")
